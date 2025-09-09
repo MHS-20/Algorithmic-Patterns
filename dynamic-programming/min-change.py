@@ -1,3 +1,4 @@
+# Minimum number of values from an array that sum to a specified amount: 
 def min_change(amount: int, coins: list[int], memo: dict[int, int]) -> int:
     if amount == 0:
         return 0

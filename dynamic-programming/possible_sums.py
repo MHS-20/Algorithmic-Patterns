@@ -1,3 +1,4 @@
+# return if it is possible to reach the specified amount using the numbers in the array
 def possible_sums(amount: int, numbers: list[int], memo: dict[int, bool]) -> bool:
     if amount == 0:
         return True
