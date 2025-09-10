@@ -1,5 +1,6 @@
+# return the k-closest point to the origin
+# using euclidean distance
 from heapq import heappop, heappush
-
 def  k_closest_point(points: list[list[int]], k: int) -> list[list[int]]:
     heap : list[tuple[int, list[int]]] = [] 
     res =  []

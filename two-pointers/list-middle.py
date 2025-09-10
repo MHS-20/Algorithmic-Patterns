@@ -1,11 +1,12 @@
+# find the middle of a list 
 class Node: 
     def __init__(self, val, next=None):
         self.val = val
         self.next = next
 
 def  list_middle(head: Node) -> int: 
-    fast = slow = head 
-    
+    fast = head 
+    slow = head
 
     while fast and fast.next: 
         slow = slow.next

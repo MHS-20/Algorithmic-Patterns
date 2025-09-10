@@ -1,3 +1,4 @@
+# compute maximum sum of a subarray of length k
 def subarray_sum_fixed(nums: list[int], k: int) -> int: 
     window_sum = 0
     for i in range(k):

@@ -1,3 +1,4 @@
+# return indices of the two numbers such that they add up to target.
 def two_sum(arr: list[int], target: int) -> list[int]: 
     num_to_index = {}
 

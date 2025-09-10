@@ -1,12 +1,10 @@
-from collection import deque
-
-
+# return a list of lists, each list contains the value of each level
+from collections import deque
 class Node:
     def __init__(self, val, left=None, right=None):
         self.val = val
         self.right = right
         self.left = left
-
 
 def level_order_traversal(root: Node) -> list[list[int]]:
     res = []

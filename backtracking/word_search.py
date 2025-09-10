@@ -1,3 +1,6 @@
+# given a 2D board with letters inside each cell
+# find a path that spells the given word
+# without re-using the same cell
 def exist (board: list[list[str]], word: str) -> bool: 
     def dfs(i,j, word_i):
         if board[i][j] !=  word[word_i]:

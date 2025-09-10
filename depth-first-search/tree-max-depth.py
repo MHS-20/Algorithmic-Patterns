@@ -1,3 +1,4 @@
+# return the max depth of a binary tree
 class Node:
     def __init__(self, val, left=None, right=None):
         self.val = val

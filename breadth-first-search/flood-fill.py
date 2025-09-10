@@ -1,7 +1,8 @@
-## not diagonally, just cardinal directions
-
+# given an image and a specific pixel
+# replace that pixel and all connected pixel
+# that have the same color (not diagonally, just cardinals)
+# like an island of pixel of the same color
 from collections import deque
-
 
 def flood_fill(r: int, c: int, replacement: int, image: list[list[int]]) ->  list[list[int]]:
     num_rows, num_cols = len(image), len(image[0])

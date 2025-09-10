@@ -1,3 +1,4 @@
+# find first true in sorted boolean array
 def find_first_true(arr: list[bool]) -> int:
     left, right = 0, len(arr) - 1
     boundary_index = -1

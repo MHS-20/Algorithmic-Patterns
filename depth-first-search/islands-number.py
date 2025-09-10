@@ -1,4 +1,4 @@
-## grid of zeros and ones, find how many island of connected ones
+# grid of zeros and ones, find how many island of connected ones
 def number_of_islands(grid: list[list[int]]) -> int: 
     num_rows = len(grid)
     num_cols = len(grid[0])
