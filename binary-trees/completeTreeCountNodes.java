@@ -23,9 +23,13 @@ class Solution {
         int leftHeight = getDepth(root.left);
         int rightHeight = getDepth(root.right);
 
+    // if they have the same height, it means the left is full and the right has some nodes on the last level
+    // therefore i just explore the right side
         if (leftHeight == rightHeight) {
             return (1 << leftHeight) + countNodes(root.right);
         } else {
+      // if they differ in height, it means that the right is empty on the last level
+      // and so i explore only the left side
             return (1 << rightHeight) + countNodes(root.left);
         }
     }
