@@ -1,5 +1,6 @@
 # given an array of ranges, representing meetings timestamps
 # return how many meeting rooms are needed
+# eg: maximum number of overlapping intervals
 def meeting_rooms(meetings): 
     data = []
 
